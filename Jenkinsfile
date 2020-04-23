@@ -12,7 +12,7 @@ pipeline {
                 }
             }
         }
-        stage('Deploy in Dev Environment'){
+        /*stage('Deploy in Dev Environment'){
             steps{
                 build job: 'Deploy_Application_Dev_Env'
  
@@ -26,6 +26,6 @@ pipeline {
                 }
                 build job: 'Deploy_Application_Prod_Env'
             }
-        }
+        }*/
     }
 }
